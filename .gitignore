@@ -1,5 +1,4 @@
 *.mo
-*.swp
 *.egg-info
 *.egg
 *.EGG
@@ -12,6 +11,7 @@ eggs
 fake-eggs
 parts
 dist
+var
 .installed.cfg
 .mr.developer.cfg
 .hg
@@ -20,8 +20,9 @@ dist
 *.pyc
 *.pyo
 *.tmp*
-include/
-lib/
-extras/
-.coverage*
-rebuild_i18n.log
+.project
+.pydevproject
+src/collective.behavior.shortidfromlongtitle
+.settings/
+src/collective.behavior.textcaptcha
+.~lock*
